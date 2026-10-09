@@ -33,7 +33,7 @@ heading.pack(pady=12)
 # Поле для ввода значения
 value_entry = ttk.Entry(root, font=("Arial", 11), width=25)
 value_entry.pack(pady=6)
-value_entry.insert(0, "10")  дзначение по умолчанию
+value_entry.insert(0, "10")  
 
 # Выпадающий список (Combobox) с вариантами конвертации
 conversion_box = ttk.Combobox(
